@@ -7,6 +7,6 @@ class Transfer
     @amount = amount
   end
   def sender 
-   BankAccount.new(name)
+   BankAccount.new(@name)
 end
 end
